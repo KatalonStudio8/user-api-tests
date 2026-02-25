@@ -1,0 +1,14 @@
+# Données de test avec credentials
+src/test/resources/data/user*.json
+
+# IDE
+.idea/
+*.iml
+
+# Maven
+target/
+*.log
+
+# Fichiers de config locale
+**/application-local.properties
+**/secrets.properties
