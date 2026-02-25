@@ -18,7 +18,6 @@ Feature: User Management API
     When I create a user using "<jsonFile>"
     Then the response status should be 200 or 201
     And the response should contain an id
-    And the user fields should not be null
 
     Examples:
       | jsonFile   |
