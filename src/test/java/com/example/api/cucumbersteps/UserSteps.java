@@ -59,11 +59,6 @@ public class UserSteps {
         assertEquals(expectedStatus, response.getStatusCode().value());
     }
 
-    @Then("the response status should be 200 or 201")
-    public void theResponseStatusShouldBe200Or201() {
-        int status = response.getStatusCode().value();
-        assertTrue("Expected 200 or 201 but got " + status, status == 200 || status == 201);
-    }
 
     @Then("the user fields should not be null")
     public void theUserFieldsShouldNotBeNull() throws IOException {

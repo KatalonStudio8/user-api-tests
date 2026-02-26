@@ -16,7 +16,7 @@ Feature: User Management API
   Scenario Outline: Create a user using JSON file
     Given the API is available
     When I create a user using "<jsonFile>"
-    Then the response status should be 200 or 201
+    Then the response status should be 200
     And the response should contain an id
 
     Examples:
